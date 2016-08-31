@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>移动端滑块效果</title>
+  <script src="./zepto.js"></script>
+  <style>
+	* {margin:0;padding:0}
+	.slide-demo {
+	  margin: 20px;
+	  position: relative;
+	  width: 360px;
+	  height: 24px;
+	  webkit-border-radius: 5px;
+	  border-radius: 5px;
+	  background: #CAA5A5;
+	 
+	}
+	.slide-demo a {
+	  float: left;
+	  width: 120px;
+	  height: 24px;
+	  line-height: 24px;
+	  text-align: center;
+	  color:#fff;
+	  text-decoration: none;
+	}
+	.slide-btn {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 120px;
+	  height: 24px;
+	  background: rgba(0,0,0,0.2);
+	  webkit-border-radius: 5px;
+	  border-radius: 5px;
+	}
+  </style>
+ </head>
+ <body>
+   <div class="slide-demo">
+	 <div class="slide-btn"></div>
+	 <a href="javascript:void(0)" class="switchTxt cur">周周盈</a>
+	 <a href="javascript:void(0)" class="switchTxt">月月盈</a>
+	 <a href="javascript:void(0)" class="switchTxt">季季盈</a>
+   </div>
+   <script src="./index.js"></script>
+   <script>
+	  slideBox({
+		"pContainer" : ".slide-demo",
+		"slideElem" : ".slide-btn",
+		"clickItem" : ".switchTxt"
+	  });
+   </script>
+ </body>
+</html>

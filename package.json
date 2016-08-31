@@ -1,0 +1,11 @@
+{
+  "name": "slider",
+  "version": "1.0.0",
+  "description": "<div class=\"slide-demo\">\r \t <div class=\"slide-btn\"></div>\r \t <a href=\"javascript:void(0)\" class=\"switchTxt cur\">周周盈</a>\r \t <a href=\"javascript:void(0)\" class=\"switchTxt\">月月盈</a>\r \t <a href=\"javascript:void(0)\" class=\"switchTxt\">季季盈</a>\r \t</div>\r \t* {margin:0;padding:0}\r \t.slide-demo {\r \t  margin: 20px;\r \t  position: relative;\r \t  width: 360px;\r \t  height: 24px;\r \t  webkit-border-radius: 5px;\r \t  border-radius: 5px;\r \t  background: #CAA5A5;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
